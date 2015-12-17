@@ -1,13 +1,13 @@
-* This repo contains things that I've been doing in Python
+This repo contains things that I've been doing in Python
 
-* Contains
+* 1. Contains
 ** Challenges
 Little solved problems usually from [[https://www.reddit.com/r/dailyprogrammer/][reddit]]
 ** TalkingBot
 The first bot I've ever did was kind of like this one but writed in C. This one is obviously in Python.
 It answers in a silly way to all the things you tell it.
 
-* Usage
+* 2. Usage
 Take any .py and run it with:
 
 python [name].py
