@@ -1,0 +1,23 @@
+import random
+
+def main():
+  consonantes = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
+  vocales = ['a','o', 'e', 'u', 'i']
+  stringOutput = ""
+
+  for letter in input("Introduzca cadena de c's y v's: ").lower():
+    if(letter == 'c'):
+      stringOutput += random.choice(consonantes)
+
+    elif(letter == 'v'):
+      stringOutput += random.choice(vocales)
+
+    else:
+      print("Caracter no valido")
+      break
+
+  print(stringOutput)
+
+
+if __name__ == "__main__":
+  main()

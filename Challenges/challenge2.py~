@@ -1,0 +1,19 @@
+import random
+
+def gameOfThrees(num):
+  if num == 1:
+    print ("FINISHED!")
+    print (num)
+    return
+  elif num % 3 == 0:
+    num = num / 3
+    gameOfThrees(num)
+  else:
+    num += 1
+    gameOfThrees(num)
+
+def main():
+  gameOfThrees(random.randint(1, 10000))
+
+if __name__ == "__main__":
+  main()
